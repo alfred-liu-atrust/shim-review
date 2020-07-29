@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:bionic
 
 RUN sed -i 's/# deb-src/deb-src/' /etc/apt/sources.list
 RUN apt update -y
@@ -7,7 +7,7 @@ RUN apt build-dep -y shim
 RUN git clone https://github.com/alfred-liu-atrust/shim-review.git
 RUN git clone https://github.com/alfred-liu-atrust/shim.git
 WORKDIR /shim
-RUN gbp buildpackage -us -uc -b
+RUN gbp buildpackage -us -uc -b --git-upstream-tree=master
 WORKDIR /
 RUN hexdump -Cv /shim-review/shimx64.efi > orig
 RUN hexdump -Cv /shim/shimx64.efi > build

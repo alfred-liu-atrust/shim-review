@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:focal
 
 RUN sed -i 's/# deb-src/deb-src/' /etc/apt/sources.list
 RUN apt update -y

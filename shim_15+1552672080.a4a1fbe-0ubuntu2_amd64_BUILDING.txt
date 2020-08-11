@@ -2933,7 +2933,7 @@ objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 dd conv=notrunc bs=1 count=4 seek=136 if=/dev/zero of=shimx64.efi
 4+0 records in
 4+0 records out
-4 bytes copied, 4.5024e-05 s, 88.8 kB/s
+4 bytes copied, 4.7352e-05 s, 84.5 kB/s
 objcopy -D -j .text -j .sdata -j .data \
 	-j .dynamic -j .dynsym -j .rel* \
 	-j .rela* -j .reloc -j .eh_frame \
@@ -2970,7 +2970,7 @@ objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 dd conv=notrunc bs=1 count=4 seek=136 if=/dev/zero of=mmx64.efi
 4+0 records in
 4+0 records out
-4 bytes copied, 5.2867e-05 s, 75.7 kB/s
+4 bytes copied, 4.1239e-05 s, 97.0 kB/s
 sbsign --key shim.key --cert shim.crt --output mmx64.efi.signed mmx64.efi
 warning: data remaining[1120256 vs 1275321]: gaps between PE/COFF sections?
 warning: data remaining[1120256 vs 1275328]: gaps between PE/COFF sections?
@@ -2984,7 +2984,7 @@ objcopy -D -j .text -j .sdata -j .data -j .data.ident \
 dd conv=notrunc bs=1 count=4 seek=136 if=/dev/zero of=fbx64.efi
 4+0 records in
 4+0 records out
-4 bytes copied, 6.2345e-05 s, 64.2 kB/s
+4 bytes copied, 4.0337e-05 s, 99.2 kB/s
 sbsign --key shim.key --cert shim.crt --output fbx64.efi.signed fbx64.efi
 warning: data remaining[1067520 vs 1221099]: gaps between PE/COFF sections?
 warning: data remaining[1067520 vs 1221104]: gaps between PE/COFF sections?

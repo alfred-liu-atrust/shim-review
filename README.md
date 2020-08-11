@@ -18,14 +18,12 @@ Here's the template:
 -------------------------------------------------------------------------------
 What organization or people are asking to have this signed:
 -------------------------------------------------------------------------------
-Atrust Computer Corp.
-http://www.atrustcorp.com/index.php
+[Atrust Computer Corp.](http://www.atrustcorp.com/index.php)
 
 -------------------------------------------------------------------------------
 What product or service is this for:
 -------------------------------------------------------------------------------
-P2T USB
-(http://www.atrustcorp.com/product/index/path/141_143/id/130/language/en_us.html#ad-image-0)
+[P2T USB](http://www.atrustcorp.com/product/index/path/141_143/id/130/language/en_us.html#ad-image-0)
 
 -------------------------------------------------------------------------------
 What's the justification that this really does need to be signed for the whole world to be able to boot it:

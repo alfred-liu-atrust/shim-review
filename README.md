@@ -37,7 +37,7 @@ Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
 - Name: Jason Chang
 - Position: engineer
-- Email address: jason chang@atrustcorp.com
+- Email address: jason.chang@atrustcorp.com
 - PGP key: n/a
 
 -------------------------------------------------------------------------------
